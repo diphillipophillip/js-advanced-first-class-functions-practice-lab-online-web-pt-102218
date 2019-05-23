@@ -24,9 +24,5 @@ const driversByName = function(driver) {
   })
 }
 
-const totalRevenue = function(driver) {
-  return driver.reduce(function(total, current){
-    return current.revenue + total
-  })
-}
+
 
